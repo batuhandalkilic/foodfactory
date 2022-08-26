@@ -1,8 +1,14 @@
 # foodfactory
 
-A new Flutter project.
+Bu projede Dart-Flutter Layout kuralarına, sayfalar arası geçiş için onGenerateRoute, Listview ve SliverLİst widgetların kullanımı, GestureDetector widget kullanımları pekiştirildi.
+
+
 
 ## Getting Started
+
+https://user-images.githubusercontent.com/71173133/186836057-dbbad386-f24c-4e93-bd3e-a52b1dbee2ca.mp4
+
+
 
 This project is a starting point for a Flutter application.
 
