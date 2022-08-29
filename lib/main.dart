@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       onGenerateRoute: OnGeneratedRoute.sayfagecisi,
       title: 'Material App',
-      home: LoginPage(),
+      /*  home: LoginPage(), */
     );
   }
 }

@@ -8,10 +8,13 @@ import 'Pages/icecekler.dart';
 import 'Pages/kirmiziet.dart';
 import 'Pages/salata.dart';
 import 'Pages/tavuketi.dart';
+import 'login_page.dart';
 
 class OnGeneratedRoute {
   static Route<dynamic>? sayfagecisi(RouteSettings settings) {
     switch (settings.name) {
+      case "/":
+        return routeOlusturma(LoginPage(), settings);
       case "/YemekSayfasi":
         return routeOlusturma(YemekSayfasi(), settings);
       case "/Çorbalar":
